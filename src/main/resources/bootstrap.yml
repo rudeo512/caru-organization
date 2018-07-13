@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: organization
+  cloud:
+    config:
+      uri: http://localhost:8093
